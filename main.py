@@ -107,6 +107,5 @@ else:
   print("Grade point for course 3 is:",Fandbelow)
   gradepoint3 =+ Fandbelow
   
-def run():
   gpa = (gradepoint1 * course1credit + gradepoint2 * course2credit + gradepoint3 * course3credit) / (course1credit + course2credit + course3credit)
   print("Your GPA is:",gpa) 

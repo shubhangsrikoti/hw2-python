@@ -26,15 +26,15 @@ def run():
   courseletter1 = input("Enter your course 1 letter grade: ")
   course1credit = float(input("Enter your course 1 credit: "))
   gradepoint1 = getGradePoint(courseletter1)
-  print (f"Grade point for couse 1 is: {getGradePoint(courseletter1)}")
+  print (f"Grade point for course 1 is: {getGradePoint(courseletter1)}")
   courseletter2 = input("Enter your course 2 letter grade: ")
   course2credit = float(input("Enter your course 2 credit: "))
   gradepoint2 = getGradePoint(courseletter2)
-  print (f"Grade point for couse 2 is: {getGradePoint(courseletter2)}")
+  print (f"Grade point for course 2 is: {getGradePoint(courseletter2)}")
   courseletter3 = input("Enter your course 3 letter grade: ")
   course3credit = float(input("Enter your course 3 credit: "))
   gradepoint3 = getGradePoint(courseletter3)
-  print (f"Grade point for couse 3 is: {getGradePoint(courseletter3)}")
+  print (f"Grade point for course 3 is: {getGradePoint(courseletter3)}")
   
 
   gpa = (gradepoint1 * course1credit + gradepoint2 * course2credit + gradepoint3 * course3credit) / (course1credit + course2credit + course3credit)

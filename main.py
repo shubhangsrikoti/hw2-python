@@ -1,7 +1,6 @@
 ## Author: Shubhang Srikoti svs6959@psu.edu
 
 
-
 def getGradePoint(courseletter):
   if courseletter == "A":
     return 4.0
